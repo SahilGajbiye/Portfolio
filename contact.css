@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #081b29;
+    color: aliceblue;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: transparent;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #29a3a3;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #29a3a3;
+}
+
+.contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .contact-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: aliceblue;
+    padding-bottom: 0.5rem;
+  }
+
+  .contact-content .mail {
+    color: #f0f0e6;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .contact-content a {
+    text-decoration: none;
+    color: #00abf0;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    font-size: 35px;
+    color: #00abf0 ;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+  
+.contact-content a:hover {
+    color: #f0f0e6;
+  }
